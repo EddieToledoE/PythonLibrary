@@ -15,27 +15,23 @@ El menú principal tiene las siguientes opciones:
 Opción 1: Agregar Libro
 Esta opción permite añadir un nuevo libro a la biblioteca. Deberás proporcionar los siguientes datos:
 Nombre del libro: Texto que describe el título del libro.
-SKU: Código único del libro, debe ser un número entero.
 Autor: Nombre del autor del libro.
 Año de publicación: Año en que el libro fue publicado. Debe estar en formato numérico y ser válido (entre 1000 y el año actual).
 Categoría: Género o categoría del libro.
 Disponibles: Número de ejemplares disponibles. Debe ser un número entero.
-Opción 2: Registrar Usuario
-Esta opción permite registrar un nuevo usuario en la biblioteca. Los datos solicitados son:
 
-ID de Usuario: Identificador único del usuario en formato UUID. Debe seguir el formato xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx.
+Opción 2: Registrar Usuario
+
 Nombre del usuario: Nombre completo del usuario.
 Correo electrónico: Debe tener un formato válido (ejemplo: usuario@correo.com).
 Teléfono: Número de teléfono del usuario, debe contener exactamente 10 dígitos.
 Fecha de registro: Fecha en que el usuario se registra en el formato DD/MM/AA.
-Opción 3: Registrar Préstamo
-Esta opción permite registrar el préstamo de un libro a un usuario. Los datos solicitados son:
 
-ID del Préstamo: Identificador único del préstamo en formato UUID.
-ID del Usuario: Identificador único del usuario que solicita el préstamo.
-SKU del Libro: Código único del libro que se presta. Debe ser un número entero.
+Opción 3: Registrar Préstamo
+
 Fecha de préstamo: Fecha en la que se realiza el préstamo en el formato DD/MM/AA.
 Fecha de devolución: Fecha en la que se espera la devolución del libro en el formato DD/MM/AA.
+
 Opción 4: Devolver Libro
 Esta opción permite registrar la devolución de un libro previamente prestado. Los datos solicitados son:
 
